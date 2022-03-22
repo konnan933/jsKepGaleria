@@ -4,8 +4,12 @@ window.addEventListener("load", init);
 function ID(elem) {
     return document.getElementById(elem);
 }
+
 function CLASS(elem) {
     return document.getElementsByClassName(elem);
+}
+function $(elem) {
+    return document.querySelectorAll(elem);
 }
 
 var kepeim = [{
@@ -44,7 +48,10 @@ function galeria(){
         ID(index).addEventListener("click",kepkivalsztas)
         CLASS("kep")[index].style.border="1px solid red";
         CLASS("kep")[index].className+=" kepekformalasa";
+        $("#inp img")[index].style.borderRadius="50px";
     }
+    document.querySelector(".kepek img").style.borderRadius="50px"
+    
     
 }
 function kepkivalsztas(){
