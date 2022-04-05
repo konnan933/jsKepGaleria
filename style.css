@@ -23,6 +23,7 @@ article img{
 }
 .contaienr div{
     align-items: center;   
+    
 }
 .kepek{
     width: 80%;
@@ -37,7 +38,7 @@ article img{
     border-radius: 10px;
 }
 section div{
-    width: 32%;
+    width: 33%;
 }
 section img{
     width: 100%;
